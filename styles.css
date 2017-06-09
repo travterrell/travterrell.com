@@ -1,0 +1,485 @@
+html, body {
+  height: 100%;
+}
+
+a {
+  color: white!important;
+  text-decoration: none!important;
+  transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+}
+
+  a:hover {
+    color: #ede00a!important;
+    text-decoration: none!important;
+  }
+
+body {
+	background-image: url("assets/images/darkerbg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+	color: white!important;
+	padding: 0px;
+	background-color: black!important;
+}
+
+#about p {
+    font-family: avenir;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+#logos {
+  /*border: 2px solid green;*/
+}
+
+.col-sm-3 {
+  /*border: 2px solid white;*/
+}
+
+@font-face {
+    font-family: chosence_light;
+    src: url(assets/chosence_light.otf);
+}
+
+@font-face {
+    font-family: avenir;
+    src: url(assets/avenir.ttc);
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-toggle {
+    border: 1px solid white!important;
+		position: relative;
+		top: -35px;
+	}
+
+		.navbar-toggle .icon-bar {
+			border: 1px solid white;
+		}
+}
+
+.nav {
+	/*border: 2px solid green;*/
+	height: 70px;
+	font-family: chosence_light;
+}
+
+@media only screen and (max-width: 767px) {
+	#navlinks {
+		height: 70px;
+		/*border: 2px solid purple;*/
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#navlinks {
+		height: 70px;
+		/*border: 2px solid purple;*/
+	}
+}
+
+	@media only screen and (max-width: 767px) {
+		.nav ul {
+			/*border: 2px solid green;*/
+			height: 50px;
+			font-size: 20px;
+			margin: 0px;
+			padding: 0px;
+		}
+	}
+
+	@media only screen and (min-width: 768px) {
+		.nav ul {
+			float: right;
+			/*border: 2px solid green;*/
+			height: 50px;
+			font-size: 20px;
+			position: relative;
+			top: 10px;
+		}
+	}
+
+		@media only screen and (max-width: 767px) {
+			.nav ul li {
+				float: left;
+				list-style-type: none;
+				/*margin-right: 30px;*/
+				height: 50px;
+				line-height: 50px;
+				width: 25%;
+				/*border: 2px solid red;*/
+				text-align: center;
+				display: inline-block;
+			}
+		}
+
+		@media only screen and (min-width: 768px) {
+			.nav ul li {
+				float: left;
+				list-style-type: none;
+				margin-right: 30px;
+				height: 50px;
+				line-height: 50px;
+			}
+		}
+
+		.navbar-collapse.in {
+	    overflow-y: none!important;
+	    height: 76px!important;
+	    position: absolute;
+	    width: 100%;
+	    left: -15px;
+			display: block!important;
+		}
+
+		.nav span {
+			color: white;
+		}
+
+	#navlogo {
+		/*border: 2px solid white;*/
+		height: 70px;
+		text-align: center;
+	}
+
+		#logo {
+			width: 100px;
+			position: relative;
+			top: 10px;
+		}
+
+#left_index, #right_index {
+	/*border: 1px solid purple;*/
+}
+
+.content ul {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-size: 207%;
+  }
+  .container-fluid {
+  	/*border: 2px solid red;*/
+    width: 100%;
+    font-family: avenir!important;
+  }
+
+	.content {
+		/*border: 2px solid white;*/
+		text-align: center;
+		margin: 50px auto 0px!important;
+	}
+
+	#trav_index_logo {
+		width: 100%;
+	}
+
+  .heading {
+    width: 190px;
+    margin-top: 20px;
+  }
+
+		#left_index p {
+			text-align: center;
+	    font-family: avenir;
+	    font-size: 25px;
+	    margin-left: 18px;
+		}
+
+	#index_pics {
+    width: 100%;
+    border: 1px solid #ede00a;
+	}
+
+    .rslides1, .rslides1 {
+      margin: auto;
+      position: relative;
+      right: 17px;
+    }
+
+	#right_index {
+		margin: auto;
+	}
+
+  #in
+
+	#right_index, #left_index {
+		max-width: 400px;
+		margin: auto!important;
+	}
+
+  #quote {
+  	font-family: avenir;
+  }
+
+  	blockquote {
+  		font-size: 25px;
+  		font-style: italic;
+  		border: none!important;
+  		margin: 5px auto 0px!important;
+  	}
+
+  	#quote p {
+  		color: #ede00a;
+      font-size: 17px;
+  	}
+
+    #logos img {
+      width: 200px;
+    }
+
+    .link_column p {
+      font-family: avenir;
+      margin: 0px auto 0px;
+    }
+
+  .link_column img {
+    border: 1px solid #ede00a;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .link_column img:hover {
+    opacity: 0.5;
+  }
+
+  .link_title {
+    border: none!important;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .contact {
+    font-size: 17px;
+  }
+
+  #contact_form {
+    text-align: initial;
+    /*border: 2px solid white;*/
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+  }
+
+    #contact_form input {
+      width: 100%;
+      max-width: 500px;
+      height: 50px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #ede00a;
+      margin-bottom: 10px;
+    }
+
+    #contact_form textarea {
+      width: 100%;
+      max-width: 500px;
+      height: 102px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #ede00a;
+    }
+
+    #form_buttons {
+      text-align: center;
+    }
+
+      #form_buttons input {
+        width: 100px;
+        height: 50px;
+        background-color: transparent;
+        border: 1px solid #ede00a;
+        color: white;
+      }
+
+  #footer {
+  	margin-top: 10px;
+  	font-family: avenir;
+  	font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container-fluid {
+  	/*border: 2px solid red;*/
+    font-family: avenir!important;
+  }
+
+	.content {
+		/*border: 2px solid white;*/
+		text-align: center;
+		/*width: 800px;*/
+		margin: 50px auto 0px!important;
+	}
+
+	#trav_index_logo {
+		width: 100%;
+	}
+
+  #index_info {
+    width: 768px;
+    margin: auto;
+  }
+
+  .heading {
+    width: 190px;
+  }
+
+		#left_index p {
+			text-align: left;
+	    font-family: avenir;
+	    font-size: 25px;
+	    margin-left: 18px;
+		}
+
+	#index_pics {
+		width: 100px;
+		border: 1px solid #ede00a;
+	}
+
+	#right_index {
+		margin: auto;
+	}
+
+		#right_index img {
+			width: 350px;
+		}
+
+	#right_index, #left_index {
+		max-width: 400px;
+		margin: auto!important;
+	}
+
+  #quote {
+  	font-family: avenir;
+  }
+
+  	blockquote {
+  		font-size: 25px;
+  		font-style: italic;
+  		border: none!important;
+  		margin: 10px auto 0px!important;
+  		text-align: justify;
+  		width: 600px;
+  	}
+
+  	#quote p {
+      color: #ede00a;
+      font-size: 17px;
+      margin-top: -10px;
+      /* border: 2px solid purple; */
+      margin-left: 353px;
+  	}
+
+    #espn_logo {
+      width: 150px;
+      position: relative;
+      top: 25px;
+    }
+
+    #nfl_network_logo {
+      width: 150px;
+    }
+
+    #niners_logo {
+      width: 140px;
+    }
+
+    #ncredible_logo {
+      width: 130px;
+    }
+
+  .portfolio_links {
+  }
+
+  .link_column {
+    text-align: center;
+    font-family: avenir;
+    /*border: 2px solid purple;*/
+    width: 33%;
+  }
+
+    .link_column img {
+      border: 1px solid #ede00a;
+      width: 100%;
+      max-width: 300px;
+    }
+
+      .link_column a:hover {
+        opacity: 0.5;
+      }
+
+    .link_column h3 {
+      font-size: 18px;
+      color: #ede00a;
+    }
+
+    .link_title {
+      height: 40px;
+      width: 262px!important;
+      border: none!important;
+    }
+
+    .link_column p {
+      margin: 0px auto 0px;
+    }
+
+  .contact {
+    font-size: 20px;
+  }
+
+  #contact_form {
+    text-align: initial;
+    /*border: 2px solid white;*/
+    margin: auto;
+    width: 500px;
+  }
+
+    #contact_form input {
+      width: 500px;
+      height: 50px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #ede00a;
+      margin-bottom: 10px;
+    }
+
+    #contact_form textarea {
+      width: 500px;
+      height: 200px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #ede00a;
+    }
+
+    #form_buttons {
+      text-align: center;
+    }
+
+      #form_buttons input {
+        width: 100px;
+        height: 50px;
+        background-color: transparent;
+        border: 1px solid #ede00a;
+        color: white;
+      }
+
+  #footer {
+  	margin-top: 20px;
+  	font-family: avenir;
+  	font-size: 10px;
+  }
+}
+
+.success {
+  color: #00ff33;
+}
+
+.error {
+  color: red;
+}
