@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       <div class="row nav">
         <div class="col-sm-2" id="navlogo">
-          <img id="logo" src="assets/images/travlogo.png">
+          <img id="logo" src="assets/images/travlogo.png" alt="© 2017 TravTerrell.com - All Rights Reserved.">
         </div>
         <div class="col-sm-10" id="navlinks">
           <ul>
@@ -101,7 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <div class="content">
         <div class="row">
           <div class="col-sm-12">
-            <img class="heading" src="assets/images/contact.png">
+            <img class="heading" src="assets/images/contact.png" alt="contact">
           </div>
         </div>
         <div class="row contact">

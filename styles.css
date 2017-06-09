@@ -159,6 +159,11 @@ body {
   list-style-type: none;
 }
 
+#github_logo {
+  width: 130px;
+  margin-top: 10px;
+}
+
 @media only screen and (max-width: 767px) {
   body {
     background-size: 207%;
