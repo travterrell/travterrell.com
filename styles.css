@@ -35,6 +35,36 @@ body {
   /*border: 2px solid green;*/
 }
 
+@media only screen and (max-width: 767px) {
+  #skills_h2 {
+    border-bottom: 1px solid #ede00a;
+    width: 65px;
+    margin: 10px auto 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #skills_h2 {
+    border-bottom: 1px solid #ede00a;
+    width: 65px;
+    margin: 0px auto 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .language_logos img {
+    width: 15%;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .language_logos img {
+    width: 9%;
+    margin-bottom: 10px;
+  }
+}
+
 .col-sm-3 {
   /*border: 2px solid white;*/
 }
@@ -400,6 +430,7 @@ body {
     }
 
   .portfolio_links {
+    /*border: 2px solid purple;*/
   }
 
   .link_column {
@@ -413,6 +444,8 @@ body {
       border: 1px solid #ede00a;
       width: 100%;
       max-width: 300px;
+      display: block;
+      margin: auto;
     }
 
       .link_column a:hover {
@@ -487,4 +520,9 @@ body {
 
 .error {
   color: red;
+}
+
+#linkedin_logo {
+  width: 90px;
+  margin-top: 30px;
 }

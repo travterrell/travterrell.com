@@ -72,11 +72,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <head>
     <meta charset="UTF-8">
     <title>TravTerrell.com</title>
-    <link rel="icon" type="image/png" href="assets/images/travicon.png">
+    <link rel="icon" type="image/png" href="../assets/images/travicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
 
@@ -86,14 +86,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       <div class="row nav">
         <div class="col-sm-2" id="navlogo">
-          <img id="logo" src="assets/images/travlogo.png" alt="© 2017 TravTerrell.com - All Rights Reserved.">
+          <img id="logo" src="../assets/images/travlogo.png" alt="© 2017 TravTerrell.com - All Rights Reserved.">
         </div>
         <div class="col-sm-10" id="navlinks">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -101,7 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <div class="content">
         <div class="row">
           <div class="col-sm-12">
-            <img class="heading" src="assets/images/contact.png" alt="contact">
+            <img class="heading" src="../assets/images/contact.png" alt="contact">
           </div>
         </div>
         <div class="row contact">
@@ -129,7 +129,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <div class="row">
          <div class="col-sm-12" id="footer">
-           <p>© 2017 TravTerrell.com - All Rights Reserved.</p>
+           <p>© <?php echo date("Y");?> TravTerrell.com - All Rights Reserved.</p>
          </div>
        </div>
     </div>

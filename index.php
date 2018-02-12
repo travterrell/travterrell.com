@@ -17,14 +17,14 @@
 
       <div class="row nav">
         <div class="col-sm-2" id="navlogo">
-          <img id="logo" src="assets/images/travlogo.png" alt="© 2017 TravTerrell.com - All Rights Reserved.">
+          <img id="logo" src="assets/images/travlogo.png" alt="© <?php echo date("Y");?> TravTerrell.com - All Rights Reserved.">
         </div>
         <div class="col-sm-10" id="navlinks">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -33,16 +33,16 @@
       <div class="row" id="index_info">
           <div class="col-sm-6 col-sm-push-6" id="right_index">
             <ul class="rslides">
-                <li><img id="index_pics" src="assets/images/pic1.jpg" alt="© 2017 TravTerrell.com - All Rights Reserved."></li>
-                <li><img id="index_pics" src="assets/images/pic2.jpg" alt="© 2017 TravTerrell.com - All Rights Reserved."></li>
-                <li><img id="index_pics" src="assets/images/pic5.jpg" alt="© 2017 TravTerrell.com - All Rights Reserved."></li>
-                <li><img id="index_pics" src="assets/images/pic3.jpg" alt="© 2017 TravTerrell.com - All Rights Reserved."></li>
-                <li><img id="index_pics" src="assets/images/pic4.jpg" alt="© 2017 TravTerrell.com - All Rights Reserved."></li>
+                <li><img id="index_pics" src="assets/images/pic1.jpg" alt="© <?php echo date("Y");?> TravTerrell.com - All Rights Reserved."></li>
+                <li><img id="index_pics" src="assets/images/pic2.jpg" alt="© <?php echo date("Y");?> TravTerrell.com - All Rights Reserved."></li>
+                <li><img id="index_pics" src="assets/images/pic5.jpg" alt="© <?php echo date("Y");?> TravTerrell.com - All Rights Reserved."></li>
+                <li><img id="index_pics" src="assets/images/pic3.jpg" alt="© <?php echo date("Y");?> TravTerrell.com - All Rights Reserved."></li>
+                <li><img id="index_pics" src="assets/images/pic4.jpg" alt="© <?php echo date("Y");?> TravTerrell.com - All Rights Reserved."></li>
             </ul>
           </div>
           <div class="col-sm-6 col-sm-pull-6" id="left_index">
-            <img id="trav_index_logo" src="assets/images/trav_index_logo.png" alt="© 2017 TravTerrell.com - All Rights Reserved.">
-            <p>Front-End Web Developer</p>
+            <img id="trav_index_logo" src="assets/images/trav_index_logo.png" alt="© <?php echo date("Y");?> TravTerrell.com - All Rights Reserved.">
+            <p>Full Stack Web Developer</p>
             <p>Creative Engineer</p>
             <p>2x Emmy Nominee</p>
           </div>
@@ -55,7 +55,7 @@
        </div>
         <div class="row">
          <div class="col-sm-12" id="footer">
-           <p>© 2017 TravTerrell.com - All Rights Reserved.</p>
+           <p>© <?php echo date("Y");?> TravTerrell.com - All Rights Reserved.</p>
          </div>
        </div>
     </div>
