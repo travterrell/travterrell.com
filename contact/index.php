@@ -78,6 +78,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
   </head>
 
   <body>
@@ -91,8 +94,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="col-sm-10" id="navlinks">
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
+            <li id="about-nav"><a href="/about">About</a></li>
+            <li id="portfolio-nav"><a href="/portfolio">Portfolio</a></li>
             <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
