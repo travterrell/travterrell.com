@@ -85,6 +85,7 @@
             <img src="../assets/images/nodejs.svg" alt="NodeJS">
             <img src="../assets/images/git.svg" alt="Git">
             <img src="../assets/images/github.svg" alt="GitHub">
+            <img src="../assets/images/sass.svg" alt="Sass">
           </div>
         </div>
         <div class="row">
