@@ -54,11 +54,12 @@
             <p>MySQL</p>
           </div>
           <div class="col-sm-6 link_column">
-            <a href="https://www.travterrell.com/weatherapp" target="_blank"><img src="../assets/images/weather.gif"></a>
-            <img class="link_title" src="../assets/images/weatherapp_title.png" alt="www.travterrell.com/weatherapp">
+            <a href="https://www.travterrell.com/weatherapp" target="_blank"><img src="../assets/images/weatherapp2.gif"></a>
+            <img class="link_title" src="../assets/images/weatherapp_title2.png" alt="www.travterrell.com/weatherapp2">
             <p>HTML</p>
             <p>CSS</p>
-            <p>Javascript</p>
+            <p>OOP Javascript</p>
+            <p>API Integration with Ajax</p>
           </div>
         </div>
 
